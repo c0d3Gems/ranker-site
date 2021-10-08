@@ -9,16 +9,16 @@
 
 		
 
-		<link rel="modulepreload" href="/app/start-6738c5ae.js">
+		<link rel="modulepreload" href="/app/start-1053604e.js">
 		<link rel="modulepreload" href="/app/chunks/vendor-cbaa467c.js">
 		<link rel="modulepreload" href="/app/layout.svelte-2deb7759.js">
-		<link rel="modulepreload" href="/app/pages/universitati/index.svelte-1dd262b7.js">
+		<link rel="modulepreload" href="/app/pages/universitati/index.svelte-cef0d80d.js">
 		<link rel="modulepreload" href="/app/chunks/app-fcaceb8e.js">
 		<link rel="stylesheet" href="/app/assets/start-61d1577b.css">
 		<link rel="stylesheet" href="/app/assets/app-ed80e66d.css">
 
 		<script type="module">
-			import { start } from "/app/start-6738c5ae.js";
+			import { start } from "/app/start-1053604e.js";
 			start({
 				target: document.body,
 				paths: {"base":"","assets":""},
@@ -32,7 +32,7 @@
 					error: null,
 					nodes: [
 						import("/app/layout.svelte-2deb7759.js"),
-						import("/app/pages/universitati/index.svelte-1dd262b7.js")
+						import("/app/pages/universitati/index.svelte-cef0d80d.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -42,6 +42,17 @@
 					}
 				}
 			});
+		</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4MQQBLQ53"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-R4MQQBLQ53');
 		</script>
 	</head>
 	<body>
@@ -62,10 +73,13 @@
 	2021. Toate drepturile rezervate.
 </footer>
 
+<div class="contextual"><nav><a href="/universitati">Universități</a>
+		<a href="/universitati/ordine-alfabetica">Ordine alfabetică</a>
+		<a href="/universitati/top-100-national">Top 100 național</a></nav></div>
+
 
 
 			
 		</div>
 	</body>
-	<!-- google analytics script may be placed here -->
 </html>

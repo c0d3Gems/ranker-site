@@ -9,7 +9,7 @@
 
 		
 
-		<link rel="modulepreload" href="/app/start-6738c5ae.js">
+		<link rel="modulepreload" href="/app/start-1053604e.js">
 		<link rel="modulepreload" href="/app/chunks/vendor-cbaa467c.js">
 		<link rel="modulepreload" href="/app/layout.svelte-2deb7759.js">
 		<link rel="modulepreload" href="/app/pages/licee/top-100-national.svelte-782d9b61.js">
@@ -18,7 +18,7 @@
 		<link rel="stylesheet" href="/app/assets/app-ed80e66d.css">
 
 		<script type="module">
-			import { start } from "/app/start-6738c5ae.js";
+			import { start } from "/app/start-1053604e.js";
 			start({
 				target: document.body,
 				paths: {"base":"","assets":""},
@@ -42,6 +42,17 @@
 					}
 				}
 			});
+		</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4MQQBLQ53"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-R4MQQBLQ53');
 		</script>
 	</head>
 	<body>
@@ -70,5 +81,4 @@
 			
 		</div>
 	</body>
-	<!-- google analytics script may be placed here -->
 </html>
