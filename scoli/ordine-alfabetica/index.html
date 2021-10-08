@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		
+
+		
+
+		<link rel="modulepreload" href="/app_/start-d0e502f1.js">
+		<link rel="modulepreload" href="/app_/chunks/vendor-e9a62dbe.js">
+		<link rel="modulepreload" href="/app_/pages/__layout.svelte-a1466997.js">
+		<link rel="modulepreload" href="/app_/pages/scoli/ordine-alfabetica.svelte-9cb02574.js">
+		<link rel="stylesheet" href="/app_/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/app_/assets/pages/__layout.svelte-aad9f7de.css">
+
+		<script type="module">
+			import { start } from "/app_/start-d0e502f1.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/app_/pages/__layout.svelte-a1466997.js"),
+						import("/app_/pages/scoli/ordine-alfabetica.svelte-9cb02574.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/scoli/ordine-alfabetica",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="svelte-1ch2vu6"><a href="/"><h2 class="svelte-1ch2vu6">Analistul</h2></a>
+	<nav class="svelte-1ch2vu6"><a href="/profesori" class="svelte-1ch2vu6">Profesori</a>
+		<a href="/gradinite" class="svelte-1ch2vu6">Grădinițe</a>
+		<a href="/scoli" class="svelte-1ch2vu6">Școli</a>
+		<a href="/licee" class="svelte-1ch2vu6">Licee</a>
+		<a href="/postliceale" class="svelte-1ch2vu6">Postliceale</a>
+		<a href="/universitati" class="svelte-1ch2vu6">Universități</a>
+		<a href="/academii" class="svelte-1ch2vu6">Academii</a></nav>
+</header>
+
+<main></main>
+
+<footer class="svelte-1a3n9if">Copyright © <a href="/">analistul.com</a>
+	2021. Toate drepturile rezervate.
+</footer>
+
+
+
+			
+		</div>
+	</body>
+	<!-- google analytics script may be placed here -->
+</html>

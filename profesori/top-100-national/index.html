@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		
+
+		
+
+		<link rel="modulepreload" href="/app_/start-d0e502f1.js">
+		<link rel="modulepreload" href="/app_/chunks/vendor-e9a62dbe.js">
+		<link rel="modulepreload" href="/app_/pages/__layout.svelte-a1466997.js">
+		<link rel="modulepreload" href="/app_/pages/profesori/top-100-national.svelte-a66cc6db.js">
+		<link rel="stylesheet" href="/app_/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/app_/assets/pages/__layout.svelte-aad9f7de.css">
+
+		<script type="module">
+			import { start } from "/app_/start-d0e502f1.js";
+			start({
+				target: document.body,
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/app_/pages/__layout.svelte-a1466997.js"),
+						import("/app_/pages/profesori/top-100-national.svelte-a66cc6db.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/profesori/top-100-national",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="svelte-1ch2vu6"><a href="/"><h2 class="svelte-1ch2vu6">Analistul</h2></a>
+	<nav class="svelte-1ch2vu6"><a href="/profesori" class="svelte-1ch2vu6">Profesori</a>
+		<a href="/gradinite" class="svelte-1ch2vu6">Grădinițe</a>
+		<a href="/scoli" class="svelte-1ch2vu6">Școli</a>
+		<a href="/licee" class="svelte-1ch2vu6">Licee</a>
+		<a href="/postliceale" class="svelte-1ch2vu6">Postliceale</a>
+		<a href="/universitati" class="svelte-1ch2vu6">Universități</a>
+		<a href="/academii" class="svelte-1ch2vu6">Academii</a></nav>
+</header>
+
+<main><main><h1>Profesori (top 100 la nivel național)</h1>
+	<div class="contextual"><nav><a href="/profesori">Profesori</a>
+			<a href="/profesori/ordine-alfabetica">Ordine alfabetică</a>
+			<a href="/profesori/top-national">Clasament național</a>
+			<a href="/profesori/top-50-national">Top 50 național</a>
+			<a href="/profesori/top-100-national">Top 100 național</a>
+			<a href="/profesori/top-500-national">Top 500 național</a>
+			<br>
+			<span>Clasamentul profesorilor:</span>
+			<a href="/profesori/top/matematica">Matematică</a><a href="/profesori/top/romana">Română</a><a href="/profesori/top/informatica">Informatică</a><a href="/profesori/top/fizica">Fizică</a><a href="/profesori/top/chimie">Chimie</a><a href="/profesori/top/geografie">Geografie</a><a href="/profesori/top/istorie">Istorie</a><a href="/profesori/top/biologie">Biologie</a><a href="/profesori/top/logica">Logică</a><a href="/profesori/top/economie">Economie</a><a href="/profesori/top/engleza">Engleză</a><a href="/profesori/top/franceza">Franceză</a><a href="/profesori/top/germana">Germană</a><a href="/profesori/top/filozofie">Filozofie</a><a href="/profesori/top/sport">Sport</a><a href="/profesori/top/muzica">Muzică</a><a href="/profesori/top/desen">Desen</a><a href="/profesori/top/statistica">Statistică</a><a href="/profesori/top/tic">TIC</a><a href="/profesori/top/ed_antreprenoriala">Educație Antreprenorială</a></nav></div></main></main>
+
+<footer class="svelte-1a3n9if">Copyright © <a href="/">analistul.com</a>
+	2021. Toate drepturile rezervate.
+</footer>
+
+
+
+			<script type="application/json" data-type="svelte-data" data-url="http://localhost:3000/classes.json">{"status":200,"statusText":"OK","headers":{"access-control-allow-origin":"*","cache-control":"no-cache","connection":"close","content-length":"512","content-type":"application/json","date":"Fri, 08 Oct 2021 05:34:47 GMT","last-modified":"Thu, 07 Oct 2021 09:07:24 GMT"},"body":"{\n\t\"matematica\": \"Matematică\",\n\t\"romana\": \"Română\",\n\t\"informatica\": \"Informatică\",\n\t\"fizica\": \"Fizică\",\n\t\"chimie\": \"Chimie\",\n\t\"geografie\": \"Geografie\",\n\t\"istorie\": \"Istorie\",\n\t\"biologie\": \"Biologie\",\n\t\"logica\": \"Logică\",\n\t\"economie\": \"Economie\",\n\t\"engleza\": \"Engleză\",\n\t\"franceza\": \"Franceză\",\n\t\"germana\": \"Germană\",\n\t\"filozofie\": \"Filozofie\",\n\t\"sport\": \"Sport\",\n\t\"muzica\": \"Muzică\",\n\t\"desen\": \"Desen\",\n\t\"statistica\": \"Statistică\",\n\t\"tic\": \"TIC\",\n\t\"ed_antreprenoriala\": \"Educație Antreprenorială\"\n}\n"}</script>
+		</div>
+	</body>
+	<!-- google analytics script may be placed here -->
+</html>
